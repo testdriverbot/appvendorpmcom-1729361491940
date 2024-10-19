@@ -1,0 +1,19 @@
+version: 4.0.70
+steps:
+  - prompt: Open the webpage.
+    commands:
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search
+        action: click
+      - command: type
+        text: https://example.com
+      - command: press-keys
+        keys:
+          - enter
+  - prompt: >-
+      Assert that the logo is visible on the homepage.  # Use the content of the
+      file from the environment
+    commands:
+      - command: assert
+        expect: the logo is visible on the homepage
