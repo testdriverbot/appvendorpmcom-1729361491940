@@ -1,0 +1,202 @@
+version: 4.0.70
+steps:
+  - prompt: Fill in the "Email Address" and "Password".
+    commands:
+      - command: hover-text
+        text: Email Address
+        description: email address input field
+        action: click
+      - command: type
+        text: test@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: password123
+  - prompt: Select the "Remember me" checkbox.
+    commands:
+      - command: hover-text
+        text: Remember me
+        description: remember me checkbox
+        action: click
+  - prompt: Click "Sign in" and log out.
+    commands:
+      - command: hover-text
+        text: Sign in
+        description: sign in button
+        action: click
+      - command: wait
+        timeout: 5000
+      - command: hover-text
+        text: Log out
+        description: log out option
+        action: click
+  - prompt: Click "Sign in" and log out.
+    commands:
+      - command: hover-text
+        text: Email Address
+        description: email address input field
+        action: click
+      - command: type
+        text: correct@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: correctpassword123
+      - command: hover-text
+        text: Sign in
+        description: sign in button
+        action: click
+      - command: wait
+        timeout: 5000
+      - command: hover-text
+        text: Log out
+        description: log out option
+        action: click
+  - prompt: Click "Sign in" and log out.
+    commands:
+      - command: hover-text
+        text: Email Address
+        description: email address input field
+        action: click
+      - command: type
+        text: correct@example.com
+      - command: hover-text
+        text: Sign in
+        description: sign in button
+        action: click
+      - command: wait
+        timeout: 5000
+      - command: hover-text
+        text: Log out
+        description: log out option
+        action: click
+  - prompt: Click "Sign in" and log out.
+    commands:
+      - command: hover-text
+        text: Email Address
+        description: email address input field
+        action: click
+      - command: type
+        text: correct@example.com
+      - command: hover-text
+        text: Sign in
+        description: sign in button
+        action: click
+      - command: wait
+        timeout: 5000
+      - command: hover-text
+        text: Log out
+        description: log out option
+        action: click
+  - prompt: Click "Sign in" and log out.
+    commands:
+      - command: hover-text
+        text: Email Address
+        description: email address input field
+        action: click
+      - command: type
+        text: backspace
+      - command: type
+        text: correct@example.com
+      - command: hover-text
+        text: Sign in
+        description: sign in button
+        action: click
+      - command: wait
+        timeout: 5000
+      - command: hover-text
+        text: Log out
+        description: log out option
+        action: click
+  - prompt: Click "Sign in" and log out.
+    commands:
+      - command: hover-text
+        text: Email Address
+        description: email address input field
+        action: click
+      - command: type
+        text: backspace
+      - command: type
+        text: correct@example.com
+      - command: hover-text
+        text: Sign in
+        description: sign in button
+        action: click
+      - command: wait
+        timeout: 5000
+      - command: hover-text
+        text: Log out
+        description: log out option
+        action: click
+  - prompt: Click "Sign in" and log out.
+    commands:
+      - command: hover-text
+        text: Email Address
+        description: email address input field
+        action: click
+      - command: type
+        text: backspace
+      - command: type
+        text: correct@example.com
+      - command: hover-text
+        text: Sign in
+        description: sign in button
+        action: click
+      - command: wait
+        timeout: 5000
+      - command: hover-text
+        text: Log out
+        description: log out option
+        action: click
+  - prompt: Click "Sign in" and log out.
+    commands:
+      - command: hover-text
+        text: Email Address
+        description: email address input field
+        action: click
+      - command: type
+        text: backspace
+      - command: type
+        text: correct@example.com
+      - command: hover-text
+        text: Sign in
+        description: sign in button
+        action: click
+      - command: wait
+        timeout: 5000
+  - prompt: Click "Sign in" and log out.
+    commands:
+      - command: hover-text
+        text: Email Address
+        description: email address input field
+        action: click
+      - command: type
+        text: backspace
+      - command: type
+        text: correct@example.com
+      - command: hover-text
+        text: Sign in
+        description: sign in button
+        action: click
+      - command: wait
+        timeout: 5000
+  - prompt: Click "Sign in" and log out.
+    commands:
+      - command: hover-text
+        text: Email Address
+        description: email address input field
+        action: click
+      - command: type
+        text: backspace
+      - command: type
+        text: correct@example.com
+      - command: hover-text
+        text: Sign in
+        description: sign in button
+        action: click
+      - command: wait
+        timeout: 5000
