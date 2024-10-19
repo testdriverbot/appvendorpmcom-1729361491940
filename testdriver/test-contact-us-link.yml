@@ -1,0 +1,42 @@
+version: 4.0.70
+steps:
+  - prompt: Scroll down to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll down to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll down to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll down to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll down to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll down to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll down to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll down to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll down to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll down to the footer.
+    commands:
+      - command: scroll
+        direction: down
