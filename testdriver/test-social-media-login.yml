@@ -1,0 +1,14 @@
+version: 4.0.70
+steps:
+  - prompt: Click on the "Sign in with Google" button.
+    commands:
+      - command: hover-text
+        text: Sign in with Google
+        description: button to sign in with Google
+        action: click
+  - prompt: >-
+      Assert that the Google login prompt appears.  # Use the content of the
+      file from the environment
+    commands:
+      - command: assert
+        expect: the Google login prompt is visible
