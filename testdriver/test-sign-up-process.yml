@@ -1,0 +1,100 @@
+version: 4.0.70
+steps:
+  - prompt: Click on the "Sign up" link.
+    commands:
+      - command: hover-text
+        text: Sign up
+        description: sign up link in the header
+        action: click
+  - prompt: Fill in the registration fields with test data.
+    commands:
+      - command: hover-text
+        text: Property Manager
+        description: option for property manager role
+        action: click
+  - prompt: Fill in the registration fields with test data.
+    commands:
+      - command: hover-text
+        text: First name
+        description: first name input field
+        action: click
+      - command: type
+        text: Test
+      - command: hover-text
+        text: Last name
+        description: last name input field
+        action: click
+      - command: type
+        text: User
+      - command: hover-text
+        text: Email address
+        description: email address input field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: Test1234
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Get Started
+        description: sign up button
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Create account
+        description: create account button
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Create account
+        description: create account button
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Create account
+        description: create account button
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Create account
+        description: create account button
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Create account
+        description: create account button
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Create account
+        description: create account button
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Create account
+        description: create account button
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Create account
+        description: create account button
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Create account
+        description: create account button
+        action: click
