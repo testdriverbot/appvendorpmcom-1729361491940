@@ -1,0 +1,14 @@
+version: 4.0.70
+steps:
+  - prompt: Click on the "Sign up" button.
+    commands:
+      - command: hover-text
+        text: Sign up
+        description: button in the header
+        action: click
+  - prompt: >-
+      Assert that the sign-up page is displayed.  # Use the content of the file
+      from the environment
+    commands:
+      - command: assert
+        expect: the sign-up page is displayed with "Hey there!" text
